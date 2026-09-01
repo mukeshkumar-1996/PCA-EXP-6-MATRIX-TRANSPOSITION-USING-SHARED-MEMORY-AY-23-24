@@ -464,7 +464,10 @@ CHECK(cudaMemset(d_C, 0, nBytes));
 
 ## OUTPUT:
 <img width="1743" height="374" alt="Screenshot 2026-09-01 084930" src="https://github.com/user-attachments/assets/54788622-3229-44fd-ba26-7d79a8185f39" />
+<img width="1295" height="517" alt="Screenshot 2026-09-01 084946" src="https://github.com/user-attachments/assets/9122b4ea-5580-451e-8791-49e994a55c7f" />
+<img width="1725" height="253" alt="Screenshot 2026-09-01 084959" src="https://github.com/user-attachments/assets/039660f8-45ff-4fd6-940e-40ca3c096a8f" />
 
+<img width="1532" height="521" alt="Screenshot 2026-09-01 085013" src="https://github.com/user-attachments/assets/0f0871b8-531d-4ec9-940e-d9af6391fea3" />
 
 ## RESULT:
-Thus the program has been executed by using CUDA to transpose a matrix. It is observed that there are variations shared memory and global memory implementation. The elapsed times are recorded as _______________.
+Thus the program has been executed by using CUDA to transpose a matrix. It is observed that there are variations shared memory and global memory implementation. The elapsed times are recorded as 0.004142 and 0.003280.
